@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.leftside {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+img {
+  width: 768px;
+  height: 790px;
+  flex-shrink: 0;
+}
+p {
+  width: 695px;
+  height: 143px;
+  color: black;
+  font-family: Roboto;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 141.688%; /* 77.928px */
+  letter-spacing: 1.1px;
+  position: absolute;
+  top: 81%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  color: white;
+  padding: 10px;
+}

@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Single+Day&family=Space+Grotesk:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Single+Day&family=Space+Grotesk:wght@500&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container {
+  background: #000;
+  color: white;
+  width: 50%;
+  min-height: 790px;
+  padding: 4px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  float: right;
+}
+.signup {
+  display: flex;
+  flex-direction: column;
+}
+.super {
+  float: right;
+  color: #72db73;
+  font-family: "Single Day";
+  font-size: 47px;
+  font-style: normal;
+  font-weight: 400;
+  top: 12%;
+  left: 76%;
+}
+.super2 {
+  float: right;
+  width: 292px;
+  height: 27px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 139.688%; /* 34.922px */
+  top: 13%;
+  left: 76%;
+}
+input {
+  color: #fff;
+  width: 413px;
+  height: 41px;
+  border-radius: 18px;
+  background: #292929;
+  margin: 8px;
+  padding: 8px 17px;
+  border: none;
+}
+#checkbox {
+  margin: 5px;
+  width: 15px;
+  height: 15px;
+}
+.check {
+  width: 320px;
+  margin: 12px 160px;
+}
+.btn {
+  width: 90%;
+  max-width: 400px;
+  margin: 24px auto;
+  border-radius: 24px;
+  padding: 10px 12px;
+  color: white;
+  background-color: #72db73;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.end p {
+  color: #7c7c7c;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 141.7%;
+  letter-spacing: 0.36px;
+  left: 78%;
+  width: 100%;
+  max-width: 500px;
+  margin: 32px auto;
+  text-align: left;
+  line-height: 1.2rem;
+}
+
+.term {
+  margin-top: 18px;
+  top: 88%;
+}
+.policy {
+  top: 96%;
+}
+.error {
+  color: red;
+  margin-top: 5px;
+  display: block;
+  right: 20%;
+}
